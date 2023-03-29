@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="calculator">
+        <div class="top">
+            <span id="clear" onclick="calculatorObject.handleClear()">C</span>
+            <div id="screen"></div>
+        </div>
+
+        <div class="keys">
+            <span onclick="calculatorObject.pressNumber(7)">7</span>
+            <span onclick="calculatorObject.pressNumber(8)">8</span>
+            <span onclick="calculatorObject.pressNumber(9)">9</span>
+            <span id="plus" class="operator" onclick="calculatorObject.pressOperator('plus')">+</span>
+            <span onclick="calculatorObject.pressNumber(4)">4</span>
+            <span onclick="calculatorObject.pressNumber(5)">5</span>
+            <span onclick="calculatorObject.pressNumber(6)">6</span>
+            <span id="minus" class="operator" onclick="calculatorObject.pressOperator('minus')">-</span>
+            <span onclick="calculatorObject.pressNumber(1)">1</span>
+            <span onclick="calculatorObject.pressNumber(2)">2</span>
+            <span onclick="calculatorObject.pressNumber(3)">3</span>
+            <span id="divide" class="operator" onclick="calculatorObject.pressOperator('divide')">÷</span>
+            <span onclick="calculatorObject.pressNumber(0)">0</span>
+            <span onclick="calculatorObject.pressDot()">.</span>
+            <span class="eval" onclick="calculatorObject.handleEval()">=</span>
+            <span id="multiple" class="operator" onclick="calculatorObject.pressOperator('multiple')">x</span>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
