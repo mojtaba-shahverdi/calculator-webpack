@@ -4,7 +4,7 @@ class CalculatorLogic {
     }
     static divide = (x,y) => {
         return x/y
-    }
+    } 
     static minus = (x,y) => {
         return x-y
     }

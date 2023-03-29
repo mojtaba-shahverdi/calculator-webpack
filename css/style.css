@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0; 
   /* Padding and border are included in the element's total width and height */
   -webkit-box-sizing: border-box;
   box-sizing: border-box;

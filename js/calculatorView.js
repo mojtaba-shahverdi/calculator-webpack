@@ -3,7 +3,7 @@ class CalculatorView {
     #operator = null
     #y = 0
     #x = 0
-    #screen = 0
+    #screen = 0 
 
     pressNumber = (number) => {
         if (this.#operator) {
